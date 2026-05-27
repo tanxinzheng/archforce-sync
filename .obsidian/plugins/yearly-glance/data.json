@@ -1,0 +1,116 @@
+{
+  "config": {
+    "year": 2026,
+    "layout": "6x2",
+    "viewType": "calendar",
+    "showWeekdays": true,
+    "highlightToday": true,
+    "highlightWeekends": true,
+    "showLegend": true,
+    "limitListHeight": false,
+    "hideEmptyDates": false,
+    "hidePreviousMonths": false,
+    "hideFutureMonths": false,
+    "eventFontSize": "medium",
+    "showHolidays": true,
+    "showBirthdays": true,
+    "showCustomEvents": true,
+    "showBasesEvents": true,
+    "mondayFirst": true,
+    "title": "",
+    "showEmojiBeforeTabName": "emoji",
+    "showTooltips": false,
+    "eventClickAction": "showTooltip",
+    "colorful": false,
+    "showLunarDay": true,
+    "showDebugInfo": false,
+    "presetColors": [
+      {
+        "label": "",
+        "value": "#FF2D55",
+        "enable": true,
+        "id": "red"
+      },
+      {
+        "label": "",
+        "value": "#FF9500",
+        "enable": true,
+        "id": "orange"
+      },
+      {
+        "label": "",
+        "value": "#FFCC00",
+        "enable": true,
+        "id": "yellow"
+      },
+      {
+        "label": "",
+        "value": "#65DB39",
+        "enable": true,
+        "id": "green"
+      },
+      {
+        "label": "",
+        "value": "#34AADC",
+        "enable": true,
+        "id": "blue"
+      },
+      {
+        "label": "",
+        "value": "#CC73E1",
+        "enable": true,
+        "id": "purple"
+      },
+      {
+        "label": "",
+        "value": "#A2845E",
+        "enable": true,
+        "id": "brown"
+      }
+    ],
+    "eventPresetTypes": [],
+    "basesEventPresetTypeProp": "event_type",
+    "emojiOnTop": false,
+    "wrapEventText": false,
+    "gregorianDisplayFormat": "YYYY年MM月DD日",
+    "defaultBasesEventPath": "",
+    "basesEventFileNameFormat": "{event_name}",
+    "basesEventTitleProp": "title",
+    "basesEventDateProp": "event_date",
+    "basesEventDurationProp": "duration",
+    "basesEventIconProp": "icon",
+    "basesEventColorProp": "color",
+    "basesEventDescriptionProp": "description",
+    "showDailyNoteEvents": false,
+    "dailyNoteSource": "daily-notes",
+    "dailyNoteEventProp": "events",
+    "lastSelectedEventType": "customEvent",
+    "customEmojiKeywords": {}
+  },
+  "data": {
+    "holidays": [],
+    "birthdays": [],
+    "customEvents": [
+      {
+        "id": "event-19d237b3",
+        "text": "安装 YG 插件",
+        "eventDate": {
+          "isoDate": "2026-05-23",
+          "calendar": "GREGORIAN",
+          "userInput": {
+            "input": "2026-05-23",
+            "calendar": "GREGORIAN"
+          }
+        },
+        "emoji": "🎉",
+        "color": "#73d13d",
+        "isRepeat": false,
+        "remark": "欢迎使用 Yearly Glance 插件！这是一个示例事件。请根据需要隐藏或删除。",
+        "eventSource": "config",
+        "dateArr": [
+          "2026-05-23"
+        ]
+      }
+    ]
+  }
+}

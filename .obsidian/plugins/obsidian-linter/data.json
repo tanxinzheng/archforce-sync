@@ -1,0 +1,69 @@
+{
+  "ruleConfigs": {
+    "auto-yaml-title": {
+      "enabled": true,
+      "titleKey": "标题"
+    },
+    "yaml-modified-timestamp": {
+      "enabled": true,
+      "dateFormat": "YYYY-MM-DD",
+      "key": "更新日期"
+    },
+    "yaml-created-timestamp": {
+      "enabled": true,
+      "dateFormat": "YYYY-MM-DD",
+      "key": "创建日期"
+    },
+    "yaml-key-sort": {
+      "enabled": true,
+      "sortOrder": ["标题", "创建日期", "更新日期", "类型", "领域", "标签", "来源"],
+      "priorityKeys": ["标题", "创建日期"]
+    },
+    "yaml-title-alias": {
+      "enabled": false
+    },
+    "yaml-title": {
+      "enabled": true
+    },
+    "empty-line-after-yaml": {
+      "enabled": true
+    },
+    "first-line-heading": {
+      "enabled": true,
+      "level": 1
+    },
+    "heading-blank-lines": {
+      "enabled": true,
+      "bottom": true,
+      "top": true
+    },
+    "footnote-after-punctuation": {
+      "enabled": false
+    },
+    "move-footnotes-to-bottom": {
+      "enabled": true
+    },
+    "remove-empty-lines-between-list-markers-and-checklists": {
+      "enabled": true
+    },
+    "trailing-spaces": {
+      "enabled": true
+    },
+    "header-increment": {
+      "enabled": true
+    },
+    "file-name-heading": {
+      "enabled": true
+    },
+    "footnote-to-bracketed": {
+      "enabled": false
+    },
+    "convert-bullet-list-markers": {
+      "enabled": true
+    }
+  },
+  "lintOnSave": true,
+  "displayChange": true,
+  "foldersToIgnore": [".trash/", "模板/"],
+  "fileTypesToIgnore": ".gitkeep"
+}
